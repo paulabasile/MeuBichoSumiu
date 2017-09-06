@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CadeMeuBicho"
+            android:label="@string/title_activity_cade_meu_bicho"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AcheiUmBicho"
+            android:label="@string/title_activity_achei_um_bicho"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PerdiMeuBicho"
+            android:label="@string/title_activity_perdi_meu_bicho"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
